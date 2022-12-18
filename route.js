@@ -2,7 +2,7 @@ const express = require("express");
 const router= express.Router();
 const Post = require("./model");
 
-router.route("/create").post(async (req,res)=>{
+router.route("/posts").post(async (req,res)=>{
     const name= req.body.name;
     const location=req.body.location;
     const likes=req.body.likes;
