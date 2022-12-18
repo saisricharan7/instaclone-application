@@ -1,0 +1,44 @@
+.main-header{
+    height: 10vh;   
+    padding-top:2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: 1px solid   rgb(228, 64, 95);
+    position: relative;
+   }
+   .insta_logo{
+       width: 4vw;
+       height:5vh;
+   }
+   .cam_logo{
+       width: 4vw;
+       height:5vh;
+       float: right;
+   }
+   form{
+    border:1px solid black;
+    height:20vh;
+    /* width:30vw; */
+    padding:3%;
+    margin:2% 25%;
+   }
+   #myfile{
+    display:block;
+
+    border:1px solid black;
+    width: 30vw;
+   }
+   #btn{
+    display: block;
+    margin:1%
+   }
+   #description{
+    display: block;
+    margin: 1%;
+   }
+   #location{
+    margin: 1%;
+   }
+   #author{
+    margin:1%;
+   }

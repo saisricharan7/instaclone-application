@@ -1,0 +1,27 @@
+.landing_img{
+    display: inline-flex;
+}
+.landing_img img{
+ width: 20vw;
+ height:60vh;
+}
+.routing{
+    margin:10px;
+}
+.landing{
+
+    width: 100vw;
+    height: 60vh;
+    padding:5% 30%;
+}
+h1{
+    font-size: 30px;
+    color: green;
+}
+button{
+    margin-left: 20%;
+    border: 2px solid green;
+    border-radius: 10%;
+    width:60px;
+    height:30px;
+}

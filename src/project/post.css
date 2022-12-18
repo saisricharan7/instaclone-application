@@ -1,0 +1,52 @@
+.main-header{
+ height: 10vh;   
+ padding-top:2%;
+ padding-left: 3%;
+ padding-right: 3%;
+ border-bottom: 1px solid   rgb(228, 64, 95);
+ position: relative;
+}
+.insta_logo{
+    width: 4vw;
+    height:5vh;
+}
+.cam_logo{
+    width: 4vw;
+    height:5vh;
+    float: right;
+}
+.first_line{
+    margin-left: 10px;
+}
+.second_line{
+    margin-left: 10px;
+}
+.tag{
+    color: rgba(47, 174, 0, 0.642);
+    font-size: 2em;
+    position: absolute;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.post{
+    margin:2% 10%;
+    width:80vw;
+    padding:2% 0%;
+    border: 1px solid gainsboro;
+    border-radius: 3%;
+}
+.dots{
+    float:right;
+    margin-right: 10px;
+}
+.likes{
+    margin-left: 0.5%;
+}
+.date{
+    float:right;
+    margin-right: 10px;
+}
+.desc{
+    margin-left: 0.5%;
+}
