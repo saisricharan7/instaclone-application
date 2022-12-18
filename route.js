@@ -24,7 +24,7 @@ router.route("/create").post(async (req,res)=>{
     catch(e){
         res.json({status:"failed",result:e.message})
     }
-    newpost.save();
+
 });
 
 router.route("/posts").get( async (req,res)=>{
