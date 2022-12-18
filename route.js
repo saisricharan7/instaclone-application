@@ -2,7 +2,7 @@ const express = require("express");
 const router= express.Router();
 const Post = require("./model");
 
-router.route("/create").post((req,res)=>{
+router.route("/create").post(async (req,res)=>{
     const name= req.body.name;
     const location=req.body.location;
     const likes=req.body.likes;
@@ -17,6 +17,13 @@ router.route("/create").post((req,res)=>{
         PostImage,
         date
     });
+    try{
+        let user= await Post.insertMany(newpost)
+        res.json({status:"success",result:user})
+    }
+    catch(e){
+        res.json({status:"failed",result:e.message})
+    }
     newpost.save();
 });
 
@@ -29,5 +36,3 @@ router.route("/posts").get( async (req,res)=>{
 module.exports= router;
 
 
-// let user=await Blog.find({topic:search})
-// res.json({status:'success',result:user})
